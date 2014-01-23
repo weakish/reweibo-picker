@@ -1,0 +1,26 @@
+{
+  "name": "reweibo-picker",
+  "description": "微博转发抽奖工具",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jakukyo Friel",
+    "email": "weakish@gmail.com",
+    "url": "http://weakish.github.io"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0"
+    }
+  ],
+  "main": "app.coffee",
+  "dependencies": {
+    "zappajs": "~0.4.22",
+    "zappajs-partials": "0.0.7",
+    "underscore": "~1.5.2",
+    "body-parser": "~1.0.0",
+    "weibo-mid": "0.0.1",
+    "shelljs": "~0.2.6",
+    "simplesets": "~1.2.0",
+  }
+}
